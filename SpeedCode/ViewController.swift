@@ -25,6 +25,8 @@ class ViewController: AMTabsViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setTabsControllers()
+        
     }
 
 
