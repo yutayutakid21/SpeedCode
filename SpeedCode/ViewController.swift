@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    //クローン完了
     /*
      
      課題:次のURLをそのままpod経由でプロジェクトへ取り込み、
