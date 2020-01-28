@@ -45,12 +45,18 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
         return stationArray.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+
+//
+//        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
+//             let hotPepperItem = self.hotPepperItems[indexPath.row]
+//             cell.textLabel?.text = hotPepperItem.address
+//             cell.detailTextLabel?.text = hotPepperItem.access
         
-        let stationLabel = cell.contentView.viewWithTag(1) as! UILabel
-        stationLabel.text = self.stationArray[indexPath.row]
+        cell.textLabel?.text = self.stationArray[indexPath.row]
         
         return cell
         
