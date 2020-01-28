@@ -31,6 +31,7 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
         tableView.delegate = self
         tableView.dataSource = self
 
+        tableView.reloadData()
         // Do any additional setup after loading the view.
     }
     
@@ -46,7 +47,7 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         let stationLabel = cell.contentView.viewWithTag(1) as! UILabel
         stationLabel.text = self.stationArray[indexPath.row]
