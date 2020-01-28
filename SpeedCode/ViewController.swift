@@ -29,7 +29,10 @@ class ViewController: AMTabsViewController {
 
 
     private func setTabsControllers() {
+        
+        //Main.storyboard
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
         
     }
 }

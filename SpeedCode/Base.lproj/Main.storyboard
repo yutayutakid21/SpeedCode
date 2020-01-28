@@ -25,7 +25,7 @@
         <!--Two View Controller-->
         <scene sceneID="2tS-rO-edH">
             <objects>
-                <viewController id="85f-rZ-Fs9" customClass="twoViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="twoViewController" id="85f-rZ-Fs9" customClass="twoViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="icg-pr-jqN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
         <!--Three Table View Controller-->
         <scene sceneID="tWI-e4-OUS">
             <objects>
-                <viewController id="7cp-zB-6BU" customClass="threeTableViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="threeTableViewController" id="7cp-zB-6BU" customClass="threeTableViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ppW-Ed-07i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
         <!--One View Controller-->
         <scene sceneID="hUR-gl-S3a">
             <objects>
-                <viewController id="Pha-hg-TKD" customClass="oneViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="oneViewController" id="Pha-hg-TKD" customClass="oneViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a1-t7-oQr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
