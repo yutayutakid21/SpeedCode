@@ -65,6 +65,7 @@
                         <viewLayoutGuide key="safeArea" id="dQG-l4-AoN"/>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="PCs-49-KBx" id="Xoa-Av-xW2"/>
                         <segue destination="2Lz-g3-rsL" kind="presentation" identifier="next" id="ezJ-79-feC"/>
                     </connections>
                 </viewController>

@@ -9,8 +9,16 @@
 import UIKit
 import AMTabView
 
-class threeTableViewController: UIViewController, TabItem {
+class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,UITableViewDataSource {
     
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var stationArray = ["新宿","渋谷","恵比寿","代々木","高輪ゲートウェイ"]
+    
+    
+    //これ、昨日話をしていたcomputed propertyですね
     var tabImage: UIImage? {
           return UIImage(named: "tab3")
         }
@@ -18,19 +26,18 @@ class threeTableViewController: UIViewController, TabItem {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    */
+    
+    
 
 }
