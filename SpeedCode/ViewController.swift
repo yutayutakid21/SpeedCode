@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import AMTabView
 
-class ViewController: UIViewController {
+class ViewController: AMTabsViewController {
 
-    
     /*
      
      課題:次のURLをそのままpod経由でプロジェクトへ取り込み、
@@ -24,9 +24,29 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setTabsControllers()
+        
     }
 
 
+    private func setTabsControllers() {
+        
+        //Main.storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let oneViewController = storyboard.instantiateViewController(withIdentifier: "oneViewController")
+        
+        let twoViewController = storyboard.instantiateViewController(withIdentifier: "twoViewController")
+        
+        let threeTableViewController = storyboard.instantiateViewController(withIdentifier: "threeTableViewController")
+        
+        viewControllers = [
+            oneViewController,
+            twoViewController,
+            threeTableViewController
+        ]
+        
+    }
 }
 

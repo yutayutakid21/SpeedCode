@@ -1,0 +1,16 @@
+PODS:
+  - AMTabView (0.1.1)
+
+DEPENDENCIES:
+  - AMTabView
+
+SPEC REPOS:
+  trunk:
+    - AMTabView
+
+SPEC CHECKSUMS:
+  AMTabView: 86e156d6d9ab42d091e46466648ac5ce00abe615
+
+PODFILE CHECKSUM: d4d53e0c792393e7e0db5daaeffd2ed63b674c77
+
+COCOAPODS: 1.8.4
