@@ -17,6 +17,7 @@ class ViewController: UIViewController {
      https://github.com/Abedalkareem/AMTabView
      タブ3にtableViewを表示し、セルを5つ動的に作成し、その中に駅名を入れてセルのラベルへ表示し、タップするともmodal遷移し、遷移先でタップしたセルの駅名をラベルで表示してください。
      
+     tabのimageはassetsからとってきて大丈夫です。
      
      
      */
