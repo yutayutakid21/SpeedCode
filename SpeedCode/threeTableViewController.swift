@@ -11,6 +11,7 @@ import AMTabView
 
 class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,UITableViewDataSource {
     
+    var indexNumber = 0
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -38,6 +39,32 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
         return 1
     }
     
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return stationArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        let stationLabel = cell.contentView.viewWithTag(1) as! UILabel
+        stationLabel.text = self.stationArray[indexPath.row]
+        
+        return cell
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        indexNumber = indexPath.row
+        
+        performSegue(withIdentifier: "next", sender: nil)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
+    }
     
 
 }
