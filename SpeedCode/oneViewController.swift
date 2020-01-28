@@ -13,7 +13,7 @@ class oneViewController: UIViewController ,TabItem {
     
     
     var tabImage: UIImage? {
-       return UIImage(named: "tab1")
+       return UIImage(named: "book")
      }
 
     

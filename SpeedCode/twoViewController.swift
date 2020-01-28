@@ -12,7 +12,7 @@ import AMTabView
 class twoViewController: UIViewController ,TabItem {
     
     var tabImage: UIImage? {
-          return UIImage(named: "tab2")
+          return UIImage(named: "cross")
         }
 
 

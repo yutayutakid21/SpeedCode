@@ -21,7 +21,7 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
     
     //これ、昨日話をしていたcomputed propertyですね
     var tabImage: UIImage? {
-          return UIImage(named: "tab3")
+          return UIImage(named: "church")
         }
 
 
