@@ -33,6 +33,17 @@ class ViewController: AMTabsViewController {
         //Main.storyboard
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
+        let oneViewController = storyboard.instantiateViewController(withIdentifier: "oneViewController")
+        
+        let twoViewController = storyboard.instantiateViewController(withIdentifier: "twoViewController")
+        
+        let threeTableViewController = storyboard.instantiateViewController(withIdentifier: "threeTableViewController")
+        
+        viewControllers = [
+            oneViewController,
+            twoViewController,
+            threeTableViewController
+        ]
         
     }
 }
