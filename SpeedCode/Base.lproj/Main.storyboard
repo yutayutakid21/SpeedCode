@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="704.34782608695662" y="856.47321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Three Next View Controller-->
         <scene sceneID="C0q-Ow-Rvk">
             <objects>
-                <viewController id="2Lz-g3-rsL" sceneMemberID="viewController">
+                <viewController id="2Lz-g3-rsL" customClass="threeNextViewController" customModule="SpeedCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b3T-5I-jBb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +101,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HKf-FG-I3J"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="LuB-Ef-EL1" id="9Ke-zr-2hp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSG-AC-yWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

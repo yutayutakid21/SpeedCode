@@ -46,7 +46,7 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
         let stationLabel = cell.contentView.viewWithTag(1) as! UILabel
         stationLabel.text = self.stationArray[indexPath.row]
@@ -66,5 +66,13 @@ class threeTableViewController: UIViewController, TabItem, UITableViewDelegate,U
         return 50
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "next" {
+            let nextVC:threeNextViewController = segue.destination as! threeNextViewController
+            
+            nextVC.passedText = stationArray[indexNumber]
+        }
+    }
 
 }

@@ -10,6 +10,7 @@
 		7FF8D0EE23E03ECE0062DF42 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8D0ED23E03ECE0062DF42 /* oneViewController.swift */; };
 		7FF8D0F023E03EDE0062DF42 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8D0EF23E03EDE0062DF42 /* twoViewController.swift */; };
 		7FF8D0F223E03EF80062DF42 /* threeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8D0F123E03EF80062DF42 /* threeTableViewController.swift */; };
+		7FF8D0F423E045AA0062DF42 /* threeNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8D0F323E045AA0062DF42 /* threeNextViewController.swift */; };
 		99F1B42F1D165383386CC7AB /* Pods_SpeedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1E3A673F5C5BD0AB27878A /* Pods_SpeedCode.framework */; };
 		A49EA6C123E035DD00ABF9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EA6C023E035DD00ABF9FC /* AppDelegate.swift */; };
 		A49EA6C323E035DD00ABF9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EA6C223E035DD00ABF9FC /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 		7FF8D0ED23E03ECE0062DF42 /* oneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 		7FF8D0EF23E03EDE0062DF42 /* twoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
 		7FF8D0F123E03EF80062DF42 /* threeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTableViewController.swift; sourceTree = "<group>"; };
+		7FF8D0F323E045AA0062DF42 /* threeNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeNextViewController.swift; sourceTree = "<group>"; };
 		A1C95720706894DC59E15C2D /* Pods-SpeedCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedCode.debug.xcconfig"; path = "Target Support Files/Pods-SpeedCode/Pods-SpeedCode.debug.xcconfig"; sourceTree = "<group>"; };
 		A49EA6BD23E035DD00ABF9FC /* SpeedCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49EA6C023E035DD00ABF9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				A49EA6C223E035DD00ABF9FC /* SceneDelegate.swift */,
 				A49EA6C423E035DD00ABF9FC /* ViewController.swift */,
 				A49EA6C623E035DD00ABF9FC /* Main.storyboard */,
+				7FF8D0F323E045AA0062DF42 /* threeNextViewController.swift */,
 				A49EA6C923E035E400ABF9FC /* Assets.xcassets */,
 				A49EA6CB23E035E400ABF9FC /* LaunchScreen.storyboard */,
 				A49EA6CE23E035E400ABF9FC /* Info.plist */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49EA6C523E035DD00ABF9FC /* ViewController.swift in Sources */,
+				7FF8D0F423E045AA0062DF42 /* threeNextViewController.swift in Sources */,
 				A49EA6C123E035DD00ABF9FC /* AppDelegate.swift in Sources */,
 				7FF8D0F223E03EF80062DF42 /* threeTableViewController.swift in Sources */,
 				A49EA6C323E035DD00ABF9FC /* SceneDelegate.swift in Sources */,
