@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import AMTabView
 
-class ViewController: UIViewController {
+class ViewController: AMTabsViewController {
 
-    //クローン完了
     /*
      
      課題:次のURLをそのままpod経由でプロジェクトへ取り込み、
@@ -24,9 +24,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
+    private func setTabsControllers() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+    }
 }
 
