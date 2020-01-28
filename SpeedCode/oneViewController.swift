@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import AMTabView
 
-class oneViewController: UIViewController {
+class oneViewController: UIViewController ,TabItem {
+    
+    
+    var tabImage: UIImage? {
+       return UIImage(named: "tab1")
+     }
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

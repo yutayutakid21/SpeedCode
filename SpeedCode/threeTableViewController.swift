@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import AMTabView
 
-class threeTableViewController: UIViewController {
+class threeTableViewController: UIViewController, TabItem {
+    
+    var tabImage: UIImage? {
+          return UIImage(named: "tab3")
+        }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
